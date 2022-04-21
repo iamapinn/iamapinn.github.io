@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rawat Inap</title>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Kelompok 1">
+    <meta name="description" content="Harapan PAPA Hospital">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/logo.png">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&amp;family=Roboto:wght@400;500;700&amp;display=swap">
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/tiny-slider/tiny-slider.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.css">
+
+    <!-- Theme CSS -->
+    <link id="style-switch" rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header START -->
+    <header class="navbar-light navbar-sticky header-static">
+        <!-- Logo Nav START -->
+        <nav class="navbar navbar-expand-xl">
+            <div class="container-fluid px-3 px-xl-5">
+                <!-- Logo START -->
+                <a class="navbar-brand" href="index.html">
+                    <img class="light-mode-item navbar-brand-item" src="assets/images/logo/logo_navbar.svg" alt="logo">
+                    <img class="dark-mode-item navbar-brand-item" src="assets/images/logo/logo_navbar.svg" alt="logo">
+                </a>
+                <!-- Logo END -->
+
+                <!-- Responsive navbar toggler -->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-animation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+
+                <!-- Main navbar START -->
+                <div class="navbar-collapse w-100 collapse" id="navbarCollapse">
+
+                    <!-- Nav Main menu START -->
+                    <ul class="navbar-nav navbar-nav-scroll me-auto">
+                        <!-- Nav item 1 Menu Pasien & Pengunjung -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="Pasien&Pengunjung"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pasien &
+                                Pengunjung</a>
+                            <ul class="dropdown-menu" aria-labelledby="Pasien&Pengunjung">
+                                <li> <a class="dropdown-item" href="cari_dokter.html">Cari Dokter</a></li>
+                                <li> <a class="dropdown-item" href="poliklinik.html">Poliklinik</a></li>
+                                <li> <a class="dropdown-item active" href="rawat_inap.html">Rawat Inap</a></li>
+                                <li> <a class="dropdown-item" href="">Petunjuk Lokasi</a></li>
+                                <li> <a class="dropdown-item" href="">Admisi</a></li>
+                                <li> <a class="dropdown-item" href="">FAQ</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Nav item 2 Menu Layanan -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="Layanan" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Layanan</a>
+                            <ul class="dropdown-menu" aria-labelledby="Layanan">
+                                <li> <a class="dropdown-item" href="">Farmasi</a></li>
+                                <li> <a class="dropdown-item" href="">Gawat Darurat</a></li>
+                                <li> <a class="dropdown-item" href="">Medical Check Up</a></li>
+                                <li> <a class="dropdown-item" href="">Perawatan Intensif</a></li>
+                                <li> <a class="dropdown-item" href="">Hemodialisis</a></li>
+                                <li> <a class="dropdown-item" href="">Laboratorium</a></li>
+                                <li> <a class="dropdown-item" href="">Radiologi</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Nav item 3 Menu Berita & Artikel Kesehatan -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="Berita&Artikel" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Berita & Artikel Kesehatan</a>
+                            <ul class="dropdown-menu" aria-labelledby="Berita&Artikel">
+                                <li> <a class="dropdown-item" href="">Kelainan & Penyakit</a></li>
+                                <li> <a class="dropdown-item" href="">Artikel Populer</a></li>
+                                <li> <a class="dropdown-item" href="">Edukasi Visual</a></li>
+                                <li> <a class="dropdown-item" href="">Buletin Bicara Sehat</a></li>
+                                <li> <a class="dropdown-item" href="">Video</a></li>
+                                <li> <a class="dropdown-item" href="">Promosi</a></li>
+                                <li> <a class="dropdown-item" href="">Berita</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Nav item 4 Menu Tentang RS -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="TentangRS" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Tentang RS</a>
+                            <ul class="dropdown-menu" aria-labelledby="TentangRS">
+                                <li> <a class="dropdown-item" href="visimisi.html">Visi & Misi</a></li>
+                                <li> <a class="dropdown-item" href="capres.html">Capaian & Prestasi</a></li>
+                                <li> <a class="dropdown-item" href="jajaran_direksi.html">Jajaran Direksi</a></li>
+                                <li> <a class="dropdown-item" href="pengalaman_pasien.html">Pengalaman Pasien</a></li>
+                                <li> <a class="dropdown-item" href="mengapaRSPAPA.html">Mengapa RS Harapan PAPA</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Nav Main menu END -->
+
+                    <!-- Nav Search START -->
+                    <div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+                        <div class="nav-item w-100">
+                            <form class="position-relative">
+                                <input class="form-control pe-5 bg-transparent" type="search" placeholder="Cari"
+                                    aria-label="Search">
+                                <button
+                                    class="btn bg-transparent px-2 py-0 position-absolute top-50 end-0 translate-middle-y"
+                                    type="submit"><i class="fas fa-search fs-6 "></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Nav Search END -->
+                </div>
+                <!-- Main navbar END -->
+
+                <!-- Profile START -->
+                <div class="dropdown ms-1 ms-lg-0">
+                    <a class="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button"
+                        data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" alt="avatar">
+                    </a>
+                    <ul class="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3"
+                        aria-labelledby="profileDropdown">
+                        <!-- Profile info -->
+                        <li class="px-3">
+                            <div class="d-flex align-items-center">
+                                <!-- Avatar -->
+                                <div class="avatar me-3">
+                                    <img class="avatar-img rounded-circle shadow" src="assets/images/avatar/01.jpg"
+                                        alt="avatar">
+                                </div>
+                                <div>
+                                    <a class="h6" href="#">Muhammad Muqtafin Nuha</a>
+                                    <p class="small m-0">Muh.Muqtafin.Nuha@gmail.com</p>
+                                </div>
+                            </div>
+                            <hr>
+                        </li>
+                        <!-- Links -->
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-person fa-fw me-2"></i>Edit Profile</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-gear fa-fw me-2"></i>Account Settings</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-info-circle fa-fw me-2"></i>Help</a></li>
+                        <li><a class="dropdown-item bg-danger-soft-hover" href="#"><i
+                                    class="bi bi-power fa-fw me-2"></i>Sign Out</a></li>
+                    </ul>
+                </div>
+                <!-- Profile START -->
+            </div>
+        </nav>
+        <!-- Logo Nav END -->
+    </header>
+    <!-- Header END -->
+
+    <!-- **************** MAIN CONTENT START **************** -->
+    <main>
+
+        <!-- =======================
+Popular course START -->
+        <section class="bg-light position-relative overflow-hidden">
+            <!-- SVG decoration -->
+            <figure class="position-absolute bottom-0 end-0 mb-n5">
+                <svg width="822.2px" height="301.9px" viewBox="0 0 822.2 301.9">
+                    <path class="fill-warning"
+                        d="M752.5,51.9c-4.5,3.9-8.9,7.8-13.4,11.8c-51.5,45.3-104.8,92.2-171.7,101.4c-39.9,5.5-80.2-3.4-119.2-12.1 c-32.3-7.2-65.6-14.6-98.9-13.9c-66.5,1.3-128.9,35.2-175.7,64.6c-11.9,7.5-23.9,15.3-35.5,22.8c-40.5,26.4-82.5,53.8-128.4,70.7 c-2.1,0.8-4.2,1.5-6.2,2.2L0,301.9c3.3-1.1,6.7-2.3,10.2-3.5c46.1-17,88.1-44.4,128.7-70.9c11.6-7.6,23.6-15.4,35.4-22.8 c46.7-29.3,108.9-63.1,175.1-64.4c33.1-0.6,66.4,6.8,98.6,13.9c39.1,8.7,79.6,17.7,119.7,12.1C634.8,157,688.3,110,740,64.6 c4.5-3.9,9-7.9,13.4-11.8C773.8,35,797,16.4,822.2,1l-0.7-1C796.2,15.4,773,34,752.5,51.9z">
+                    </path>
+                </svg>
+            </figure>
+            <!-- SVG decoration -->
+            <figure class="position-absolute top-0 start-0 mt-n8 me-5 d-none d-lg-block">
+                <svg width="822.2px" height="301.9px" viewBox="0 0 822.2 301.9">
+                    <path class="fill-purple opacity-3"
+                        d="M752.5,51.9c-4.5,3.9-8.9,7.8-13.4,11.8c-51.5,45.3-104.8,92.2-171.7,101.4c-39.9,5.5-80.2-3.4-119.2-12.1 c-32.3-7.2-65.6-14.6-98.9-13.9c-66.5,1.3-128.9,35.2-175.7,64.6c-11.9,7.5-23.9,15.3-35.5,22.8c-40.5,26.4-82.5,53.8-128.4,70.7 c-2.1,0.8-4.2,1.5-6.2,2.2L0,301.9c3.3-1.1,6.7-2.3,10.2-3.5c46.1-17,88.1-44.4,128.7-70.9c11.6-7.6,23.6-15.4,35.4-22.8 c46.7-29.3,108.9-63.1,175.1-64.4c33.1-0.6,66.4,6.8,98.6,13.9c39.1,8.7,79.6,17.7,119.7,12.1C634.8,157,688.3,110,740,64.6 c4.5-3.9,9-7.9,13.4-11.8C773.8,35,797,16.4,822.2,1l-0.7-1C796.2,15.4,773,34,752.5,51.9z">
+                    </path>
+                </svg>
+            </figure>
+
+            <div class="container position-relative">
+                <!-- Title -->
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <h2 class="fs-1 fw-bold">
+                            <span class="position-relative z-index-9">Rawat Inap</span>
+                            <span class="position-relative z-index-1">RSHP
+                                <!-- SVG START -->
+                                <span class="position-absolute top-50 start-50 translate-middle z-index-n1">
+                                    <svg width="163.9px" height="48.6px">
+                                        <path class="fill-warning"
+                                            d="M162.5,19.9c-0.1-0.4-0.2-0.8-0.3-1.3c-0.1-0.3-0.2-0.5-0.4-0.7c-0.3-0.4-0.7-0.7-1.2-0.9l0.1,0l-0.1,0 c0.1-0.4-0.2-0.5-0.5-0.6c0,0-0.1,0-0.1,0c-0.1-0.1-0.2-0.2-0.3-0.3c0-0.3,0-0.6-0.2-0.7c-0.1-0.1-0.3-0.2-0.6-0.2 c0-0.3-0.1-0.5-0.3-0.6c-0.1-0.1-0.3-0.2-0.5-0.2c-0.1,0-0.1,0-0.2,0c-0.5-0.4-1-0.8-1.4-1.1c0,0,0-0.1,0-0.1c0-0.1-0.1-0.1-0.3-0.2 c-0.9-0.5-1.8-1-2.6-1.5c-6-3.6-13.2-4.3-19.8-6.2c-4.1-1.2-8.4-1.4-12.6-2c-5.6-0.8-11.3-0.6-16.9-1.1c-2.3-0.2-4.6-0.3-6.8-0.3 c-1.2,0-2.4-0.2-3.5-0.1c-2.4,0.4-4.9,0.6-7.4,0.7c-0.8,0-1.7,0.1-2.5,0.1c-0.1,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.2,0 c-0.9,0-1.8,0.1-2.7,0.1c-0.9,0-1.8,0-2.7,0c-5.5-0.3-10.7,0.7-16,1.5c-2.5,0.4-5.1,1-7.6,1.5c-2.8,0.6-5.6,0.7-8.4,1.4 c-4.1,1-8.2,1.9-12.3,2.6c-4,0.7-8,1.6-11.9,2.7c-3.6,1-6.9,2.5-10.1,4.1c-1.9,0.9-3.8,1.7-5.2,3.2c-1.7,1.8-2.8,4-4.2,6 c-1,1.3-0.7,2.5,0.2,3.9c2,3.1,5.5,4.4,9,5.7c1.8,0.7,3.6,1,5.3,1.8c2.3,1.1,4.6,2.3,7.1,3.2c5.2,2,10.6,3.4,16.2,4.4 c3,0.6,6.2,0.9,9.2,1.1c4.8,0.3,9.5,1.1,14.3,0.8c0.3,0.3,0.6,0.3,0.9-0.1c0.7-0.3,1.4,0.1,2.1-0.1c3.7-0.6,7.6-0.3,11.3-0.3 c2.1,0,4.3,0.3,6.4,0.2c4-0.2,8-0.4,11.9-0.8c5.4-0.5,10.9-1,16.2-2.2c0.1,0.2,0.2,0.1,0.2,0c0.5-0.1,1-0.2,1.4-0.3 c0.1,0.1,0.2,0.1,0.3,0c0.5-0.1,1-0.3,1.6-0.3c3.3-0.3,6.7-0.6,10-1c2.1-0.3,4.1-0.8,6.2-1.2c0.2,0.1,0.3,0.1,0.4,0.1 c0.1,0,0.1,0,0.2-0.1c0,0,0.1,0,0.1-0.1c0,0,0-0.1,0.1-0.1c0.2-0.1,0.4-0.1,0.6-0.2c0,0,0.1,0,0.1,0c0.1,0,0.2-0.1,0.3-0.2 c0,0,0,0,0,0l0,0c0,0,0,0,0,0c0.2,0,0.4-0.1,0.5-0.1c0,0,0,0,0,0c0.1,0,0.1,0,0.2,0c0.2,0,0.3-0.1,0.3-0.3c0.5-0.2,0.9-0.4,1.4-0.5 c0.1,0,0.2,0,0.2,0c0,0,0.1,0,0.1,0c0,0,0.1-0.1,0.1-0.1c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0c0.2,0.1,0.4,0.1,0.6,0 c0.1,0,0.1-0.1,0.2-0.2c0.1-0.1,0.1-0.2,0.1-0.3c0.5-0.2,1-0.4,1.6-0.7c1.5-0.7,3.1-1.4,4.7-1.9c4.8-1.5,9.1-3.4,12.8-6.3 c0.8-0.2,1.2-0.5,1.6-1c0.2-0.3,0.4-0.6,0.5-0.9c0.5-0.1,0.7-0.2,0.9-0.5c0.2-0.2,0.2-0.5,0.3-0.9c0-0.1,0-0.1,0.1-0.1 c0.5,0,0.6-0.3,0.8-0.5C162.3,24,163,22,162.5,19.9z M4.4,28.7c-0.2-0.4-0.3-0.9-0.1-1.2c1.8-2.9,3.4-6,6.8-8 c2.8-1.7,5.9-2.9,8.9-4.2c4.3-1.8,9-2.5,13.6-3.4c0,0.1,0,0.2,0,0.2l0,0c-1.1,0.4-2.2,0.7-3.2,1.1c-3.3,1.1-6.5,2.1-9.7,3.4 c-4.2,1.6-7.6,4.2-10.1,7.5c-0.5,0.7-1,1.3-1.6,2c-2.2,2.7-1,4.7,1.2,6.9c0.1,0.1,0.3,0.3,0.4,0.5C7.8,32.5,5.5,31.2,4.4,28.7z  M158.2,23.8c-1.7,2.8-4.1,5.1-7,6.8c-2,1.2-4.5,2.1-6.9,2.9c-3.3,1-6.4,2.4-9.5,3.7c-3.9,1.6-8.1,2.5-12.4,2.9 c-6,0.5-11.8,1.5-17.6,2.5c-4.8,0.8-9.8,1-14.7,1.5c-5.6,0.6-11.2,0.2-16.8,0.1c-3.1-0.1-6.3,0.3-9.4,0.5c-2.6,0.2-5.2,0.1-7.8-0.1 c-3.9-0.3-7.8-0.5-11.7-0.9c-2.8-0.3-5.5-0.7-8.2-1.4c-3.2-0.8-6.3-1.7-9.5-2.5c-0.5-0.1-1-0.3-1.4-0.5c-0.2-0.1-0.4-0.1-0.6-0.2 c0,0,0.1,0,0.1,0c0.3-0.1,0.5,0,0.7,0.1c0,0,0,0,0,0c3.4,0.5,6.9,1.2,10.3,1.4c0.5,0,1,0,1.5,0c0.5,0,1.3,0.2,1.3-0.3 c0-0.6-0.7-0.9-1.4-0.9c-2.1,0-4.2-0.2-6.3-0.5c-4.6-0.7-9.1-1.5-13.4-3c-2.9-1.1-5.4-2.7-6.9-5.2c-0.5-0.8-0.5-1.6-0.1-2.4 c3.2-6.2,9-9.8,16.3-12.2c6.7-2.2,13.2-4.5,20.2-6c5-1.1,10-1.8,15-2.9c8.5-1.9,17.2-2.4,26-2.7c3.6-0.1,7.1-0.8,10.8-0.6 c8.4,0.7,16.7,1.2,25,2.3c4.5,0.6,9,1.2,13.6,1.7c3.6,0.4,7.1,1.4,10.5,2.8c3.1,1.3,6,2.9,8.5,5C159.1,17.7,159.8,21.1,158.2,23.8z" />
+                                    </svg>
+                                </span>
+                                <!-- SVG END -->
+                            </span>
+                        </h2>
+                        <p class="mb-0">Kenyamanan dalam perawatan dengan pilihan kamar Rumah Sakit Harapan PAPA.</p>
+                    </div>
+                </div>
+
+                <!-- Outer tabs START -->
+                <ul class="nav nav-pills nav-pill-soft mb-3" id="course-pills-tab" role="tablist">
+                    <!-- Tab item -->
+                    <li class="nav-item me-2 me-sm-5" role="presentation">
+                        <button class="nav-link active" id="course-pills-tab-1" data-bs-toggle="pill"
+                            data-bs-target="#course-pills-tab1" type="button" role="tab"
+                            aria-controls="course-pills-tab1" aria-selected="true">Kamar VVIP</button>
+                    </li>
+                    <!-- Tab item -->
+                    <li class="nav-item me-2 me-sm-5" role="presentation">
+                        <button class="nav-link" id="course-pills-tab-2" data-bs-toggle="pill"
+                            data-bs-target="#course-pills-tab2" type="button" role="tab"
+                            aria-controls="course-pills-tab2" aria-selected="false">Kamar VIP</button>
+                    </li>
+                    <!-- Tab item -->
+                    <li class="nav-item me-2 me-sm-5" role="presentation">
+                        <button class="nav-link" id="course-pills-tab-3" data-bs-toggle="pill"
+                            data-bs-target="#course-pills-tab3" type="button" role="tab"
+                            aria-controls="course-pills-tab3" aria-selected="false">Kamar Kelas-1</button>
+                    </li>
+                    <!-- Tab item -->
+                    <li class="nav-item me-2 me-sm-5" role="presentation">
+                        <button class="nav-link" id="course-pills-tab-4" data-bs-toggle="pill"
+                            data-bs-target="#course-pills-tab4" type="button" role="tab"
+                            aria-controls="course-pills-tab4" aria-selected="false">Kamar Kelas-2</button>
+                    </li>
+                    <!-- Tab item -->
+                    <li class="nav-item me-2 me-sm-5" role="presentation">
+                        <button class="nav-link" id="course-pills-tab-5" data-bs-toggle="pill"
+                            data-bs-target="#course-pills-tab5" type="button" role="tab"
+                            aria-controls="course-pills-tab5" aria-selected="false">Kamar Kelas-3</button>
+                    </li>
+                </ul>
+                <!-- Outer tabs END -->
+
+                <!-- Outer tabs contents START -->
+                <div class="tab-content mb-0" id="course-pills-tabContent">
+
+                    <!-- Outer content START -->
+                    <div class="tab-pane fade show active" id="course-pills-tab1" role="tabpanel"
+                        aria-labelledby="course-pills-tab-1">
+                        <div class="row">
+                            <!-- Left content START -->
+                            <div class="col-lg-6">
+                                <!-- Title -->
+                                <h3>Kamar VVIP</h3>
+                                <h6 class="mt-4">Fasilitas Kamar :</h6>
+                                <ul class="list-group list-group-borderless mb-3">
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>AC</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Tempat Tidur Pasien
+                                    </li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Kamar Mandi Dalam
+                                        Dengan Air Hangat</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>Ruang Keluarga</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>Dapur Kering</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>Sofa Mini</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 TV</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Dispenser</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Set Teh & Kopi</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Meja & Kursi Makan
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Left content END -->
+
+                            <!-- Right content START -->
+                            <div class="col-lg-6">
+                                <!-- Card START -->
+                                <div class="card p-2 shadow">
+                                    <div class="overflow-hidden h-xl-300px">
+                                        <img src="assets/images/rawat_inap/vvip.jpg" class="card-img-top"
+                                            alt="course image">
+                                    </div>
+                                    <!-- Button Pesan Sekarang -->
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <a href="#" class="btn btn-sm btn-primary-soft mb-0">Pesan Sekarang</a>
+                                    </div>
+                                </div>
+                                <!-- Card END -->
+                            </div>
+                            <!-- Right content END -->
+                        </div> <!-- Row END -->
+                    </div>
+                    <!-- Outer content END -->
+
+                    <!-- Outer content START -->
+                    <div class="tab-pane fade" id="course-pills-tab2" role="tabpanel"
+                        aria-labelledby="course-pills-tab-2">
+                        <div class="row">
+                            <!-- Left content START -->
+                            <div class="col-lg-6">
+                                <!-- Title -->
+                                <h3>Kamar VIP</h3>
+                                <h6 class="mt-4">Fasilitas Kamar :</h6>
+                                <ul class="list-group list-group-borderless mb-3">
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>AC</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Tempat Tidur Pasien
+                                    </li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Kamar Mandi Dalam
+                                        Dengan Air Hangat</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>Sofa Mini</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 TV</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Dispenser</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Set Teh & Kopi</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Meja & Kursi Makan
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Left content END -->
+
+                            <!-- Right content START -->
+                            <div class="col-lg-6">
+                                <!-- Card START -->
+                                <div class="card p-2 shadow">
+                                    <div class="overflow-hidden h-xl-300px">
+                                        <img src="assets/images/rawat_inap/vip.jpg" class="card-img-top"
+                                            alt="course image">
+                                    </div>
+                                    <!-- Button Pesan Sekarang -->
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <a href="#" class="btn btn-sm btn-primary-soft mb-0">Pesan Sekarang</a>
+                                    </div>
+                                </div>
+                                <!-- Card END -->
+                            </div>
+                            <!-- Right content END -->
+                        </div> <!-- Row END -->
+                    </div>
+                    <!-- Outer content END -->
+
+                    <!-- Outer content START -->
+                    <div class="tab-pane fade" id="course-pills-tab3" role="tabpanel"
+                        aria-labelledby="course-pills-tab-3">
+                        <div class="row">
+                            <!-- Left content START -->
+                            <div class="col-lg-6">
+                                <!-- Title -->
+                                <h3>Kamar Kelas-1</h3>
+                                <h6 class="mt-4">Fasilitas Kamar :</h6>
+                                <ul class="list-group list-group-borderless mb-3">
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>AC</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>2 Tempat Tidur Pasien
+                                    </li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Kamar Mandi Dalam
+                                    </li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 TV</li>
+                                </ul>
+                            </div>
+                            <!-- Left content END -->
+
+                            <!-- Right content START -->
+                            <div class="col-lg-6">
+                                <!-- Card START -->
+                                <div class="card p-2 shadow">
+                                    <div class="overflow-hidden h-xl-300px">
+                                        <img src="assets/images/rawat_inap/kelas-1.jpg" class="card-img-top"
+                                            alt="course image">
+                                    </div>
+                                    <!-- Button Pesan Sekarang -->
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <a href="#" class="btn btn-sm btn-primary-soft mb-0">Pesan Sekarang</a>
+                                    </div>
+                                </div>
+                                <!-- Card END -->
+                            </div>
+                            <!-- Right content END -->
+                        </div> <!-- Row END -->
+                    </div>
+                    <!-- Outer content END -->
+
+                    <!-- Outer content START -->
+                    <div class="tab-pane fade" id="course-pills-tab4" role="tabpanel"
+                        aria-labelledby="course-pills-tab-4">
+                        <div class="row">
+                            <!-- Left content START -->
+                            <div class="col-lg-6">
+                                <!-- Title -->
+                                <h3>Kamar Kelas-2</h3>
+                                <h6 class="mt-4">Fasilitas Kamar :</h6>
+                                <ul class="list-group list-group-borderless mb-3">
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>AC</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>4 Tempat Tidur Pasien
+                                    </li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Kamar Mandi Dalam
+                                    </li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>2 TV</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>Meja & Kursi Makan
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Left content END -->
+
+                            <!-- Right content START -->
+                            <div class="col-lg-6">
+                                <!-- Card START -->
+                                <div class="card p-2 shadow">
+                                    <div class="overflow-hidden h-xl-300px">
+                                        <img src="assets/images/rawat_inap/kelas-2.jpg" class="card-img-top"
+                                            alt="course image">
+                                    </div>
+                                    <!-- Button Pesan Sekarang -->
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <a href="#" class="btn btn-sm btn-primary-soft mb-0">Pesan Sekarang</a>
+                                    </div>
+                                </div>
+                                <!-- Card END -->
+                            </div>
+                            <!-- Right content END -->
+                        </div> <!-- Row END -->
+                    </div>
+                    <!-- Outer content END -->
+
+                    <!-- Outer content START -->
+                    <div class="tab-pane fade" id="course-pills-tab5" role="tabpanel"
+                        aria-labelledby="course-pills-tab-5">
+                        <div class="row">
+                            <!-- Left content START -->
+                            <div class="col-lg-6">
+                                <!-- Title -->
+                                <h3>Kamar Kelas-3</h3>
+                                <h6 class="mt-4">Fasilitas Kamar :</h6>
+                                <ul class="list-group list-group-borderless mb-3">
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>AC</li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>4 Tempat Tidur Pasien
+                                    </li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>1 Kamar Mandi Dalam
+                                    </li>
+                                    <li class="list-group-item h6 fw-light d-flex mb-0"><i
+                                            class="bi bi-patch-check-fill text-success me-2"></i>2 TV</li>
+                                </ul>
+                            </div>
+                            <!-- Left content END -->
+
+                            <!-- Right content START -->
+                            <div class="col-lg-6">
+                                <!-- Card START -->
+                                <div class="card p-2 shadow">
+                                    <div class="overflow-hidden h-xl-300px">
+                                        <img src="assets/images/rawat_inap/kelas-3.jpg" class="card-img-top"
+                                            alt="course image">
+                                    </div>
+                                    <!-- Button Pesan Sekarang -->
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <a href="#" class="btn btn-sm btn-primary-soft mb-0">Pesan Sekarang</a>
+                                    </div>
+                                </div>
+                                <!-- Card END -->
+                            </div>
+                            <!-- Right content END -->
+                        </div> <!-- Row END -->
+                    </div>
+                    <!-- Outer content END -->
+                </div>
+                <!-- Outer tabs contents END -->
+
+            </div>
+        </section>
+        <!-- =======================
+Popular course END -->
+
+    </main>
+    <!-- **************** MAIN CONTENT END **************** -->
+
+    <!-- =======================
+Footer START -->
+    <footer class="pt-5">
+        <div class="container">
+            <!-- Row START -->
+            <div class="row g-4">
+
+                <!-- Widget 1 START -->
+                <div class="col-lg-3">
+                    <!-- logo -->
+                    <a class="me-0" href="index.html">
+                        <img class="light-mode-item h-40px" src="assets/images/logo/logo_footer.svg" alt="logo">
+                        <img class="dark-mode-item h-40px" src="assets/images/logo/logo_footer.svg" alt="logo">
+                    </a>
+                    <p class="my-3">Eduport education theme, built specifically for the education centers which is
+                        dedicated to teaching and involve learners.</p>
+                    <!-- Social media icon -->
+                    <ul class="list-inline mb-0 mt-3">
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook"
+                                href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-instagram"
+                                href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-twitter"
+                                href="#"><i class="fab fa-fw fa-twitter"></i></a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-linkedin"
+                                href="#"><i class="fab fa-fw fa-linkedin-in"></i></a> </li>
+                    </ul>
+                </div>
+                <!-- Widget 1 END -->
+
+                <!-- Widget 2 START -->
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <!-- Link block -->
+                        <div class="col-6 col-md-4">
+                            <h5 class="mb-2 mb-md-4">Company</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">News and Blogs</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Library</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Career</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Link block -->
+                        <div class="col-6 col-md-4">
+                            <h5 class="mb-2 mb-md-4">Community</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a class="nav-link" href="#">Documentation</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Sitemap</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Link block -->
+                        <div class="col-6 col-md-4">
+                            <h5 class="mb-2 mb-md-4">Teaching</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a class="nav-link" href="#">Become a teacher</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">How to guide</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Widget 2 END -->
+
+                <!-- Widget 3 START -->
+                <div class="col-lg-3">
+                    <h5 class="mb-2 mb-md-4">Contact</h5>
+                    <!-- Time -->
+                    <p class="mb-2">
+                        Toll free:<span class="h6 fw-light ms-2">+1234 568 963</span>
+                        <span class="d-block small">(9:AM to 8:PM IST)</span>
+                    </p>
+
+                    <p class="mb-0">Email:<span class="h6 fw-light ms-2">example@gmail.com</span></p>
+
+                    <div class="row g-2 mt-2">
+                        <!-- Google play store button -->
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-6">
+                            <a href="#"> <img src="assets/images/client/google-play.svg" alt=""> </a>
+                        </div>
+                        <!-- App store button -->
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-6">
+                            <a href="#"> <img src="assets/images/client/app-store.svg" alt="app-store"> </a>
+                        </div>
+                    </div> <!-- Row END -->
+                </div>
+                <!-- Widget 3 END -->
+            </div><!-- Row END -->
+
+            <!-- Divider -->
+            <hr class="mt-4 mb-0">
+
+            <!-- Bottom footer -->
+            <div class="py-3">
+                <div class="container px-0">
+                    <div class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left">
+                        <!-- copyright text -->
+                        <div class="text-primary-hover"> Copyrights <a href="#" class="text-body">©2021 Eduport</a>. All
+                            rights reserved. </div>
+                        <!-- copyright links-->
+                        <div class=" mt-3 mt-md-0">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <!-- Language selector -->
+                                    <div class="dropup mt-0 text-center text-sm-end">
+                                        <a class="dropdown-toggle nav-link" href="#" role="button" id="languageSwitcher"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-globe me-2"></i>Language
+                                        </a>
+                                        <ul class="dropdown-menu min-w-auto" aria-labelledby="languageSwitcher">
+                                            <li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2"
+                                                        src="assets/images/flags/uk.svg" alt="">English</a></li>
+                                            <li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2"
+                                                        src="assets/images/flags/gr.svg" alt="">German </a></li>
+                                            <li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2"
+                                                        src="assets/images/flags/sp.svg" alt="">French</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item"><a class="nav-link" href="#">Terms of use</a></li>
+                                <li class="list-inline-item"><a class="nav-link pe-0" href="#">Privacy policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =======================
+Footer END -->
+
+    <!-- Back to top -->
+    <div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
+
+    <!-- Bootstrap JS -->
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Vendors -->
+    <script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.js"></script>
+    <script src="assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+
+    <!-- Template Functions -->
+    <script src="assets/js/functions.js"></script>
+
+</body>
+
+</html>
