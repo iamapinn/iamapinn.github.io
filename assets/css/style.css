@@ -225,8 +225,230 @@ footer i {
         width: 90%;
     }
 }
-
+*/
 @media only screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 60vh;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    }
+
+    nav,
+    .header-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        position: relative;
+    }
+
+    .logo img {
+        width: 3rem;
+        height: 3rem;
+        margin-left: 0.4rem;
+    }
+
+    .btn-sign-up {
+        padding: 0.7rem 2rem;
+        background: black;
+        color: white;
+        font-weight: 500;
+        border-radius: 50px;
+        transition: .3s;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+    .btn-sign-up:hover {
+        background: white;
+        color: black;
+    }
+
+    .header-title {
+        margin: auto;
+        font-size: 1rem;
+        position: relative;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    .today-date {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .today-date span {
+        font-size: 1rem;
+    }
+
+    .social-media {
+        display: flex;
+        list-style: none;
+        width: 150px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social-media li a {
+        color: white;
+    }
+
+    .social-media li a:hover {
+        color: #18d26e;
+    }
+
+    .social-youtube,
+    .social-twitter {
+        display: none;
+    }
+
+    /* Section About */
+    #about,
+    #youtube {
+        width: 100%;
+        padding: 2.5rem 0;
+    }
+
+    #youtube {
+        background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    }
+
+    .about-container,
+    .youtube-container {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-title,
+    .youtube-title {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    .image-gallery {
+        display: flex;
+        width: 100%;
+        min-height: 190px;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+    .youtube-content {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .youtube-box {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        margin-left: 90px;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .image-box {
+        width: 18%;
+        height: 150px;
+        position: relative;
+    }
+
+    .image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+    }
+
+    /* odd/even */
+    .image-box:nth-child(odd) {
+        align-self: flex-end;
+    }
+
+    .image-box img:hover {
+        opacity: 0.5;
+    }
+
+    .apinn {
+        position: absolute;
+        bottom: -7%;
+        left: 36%;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    .about-info {
+        text-align: center;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .pend {
+        display: flex;
+        list-style: none;
+        width: auto;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+
+    .pend-1 {
+        width: 29px;
+    }
+
+    a.project {
+        color: white;
+    }
+
+    a.project:hover {
+        color: #18d26e;
+    }
+
+    /* Section footer */
+    footer {
+        width: 100%;
+        padding: 1.5rem 1rem;
+        text-align: center;
+    }
+
+    footer i {
+        color: red;
+    }
+}
+
+/*
     .today-date {
         display: none;
     }
