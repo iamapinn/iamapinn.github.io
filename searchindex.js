@@ -3,7 +3,7 @@ Search.setIndex({
     
     "filenames": ["intro.md", "markdown.md", "markdown-notebooks.md", "notebooks.ipynb"], 
     
-    "titles": ["Pendahuluan", "Tugas 1 Dismilarity - Menghitung Jaeak", "Notebooks with MyST Markdown", "Content with notebooks"], 
+    "titles": ["Pendahuluan", "Tugas 1 Dismilarity - Menghitung Jarak", "Notebooks with MyST Markdown", "Content with notebooks"], 
     
     "terms": {
         "thi": [0, 1, 2, 3], 
